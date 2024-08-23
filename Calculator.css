@@ -1,0 +1,42 @@
+body{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.calci{
+  height: 450px;
+  width: 210px;
+  border: 2px solid rgb(80, 77, 77);
+  border-radius: 9px;
+  background-color: #4188;
+  
+}
+
+.dis{
+  margin: 10px 10px;
+}
+
+#display{
+  height: 45px;
+  border-radius: 9px;
+  width: 182PX;
+  background-color:#F7EFE5 ;
+  font-size: 25px;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+button{
+  height: 60px;
+  width: 60px;
+  font-size: 30px;
+  border-radius: 12px;
+  margin: 0.8px;
+  background-color: #E2BFD9;
+}
